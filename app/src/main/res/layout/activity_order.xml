@@ -15,7 +15,7 @@
         android:text="Order Detail : "
         android:textStyle="bold"
         android:textSize="20sp"
-        android:textColor="@color/text_main"
+        android:textColor="@color/purple_500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,7 +26,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="12dp"
         android:textSize="14sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Nama Pemesan : "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/OrderDetail" />
@@ -38,7 +38,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="3dp"
         android:textSize="14sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Store : "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/NamaPemesan" />
@@ -50,7 +50,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="3dp"
         android:textSize="14sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text=" sudah dipesan"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LokasiStore" />
@@ -64,7 +64,7 @@
         android:text="Pengiriman :"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:textColor="@color/text_main"
+        android:textColor="@color/purple_700"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Pesanan" />
     <RadioGroup
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="5dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Ambil Sendiri"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pengiriman" />
@@ -90,7 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Fast Delivery (Maksimal 30 menit sampai)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SelfService" />

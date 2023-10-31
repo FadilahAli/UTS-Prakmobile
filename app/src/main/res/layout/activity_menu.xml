@@ -36,7 +36,7 @@
         android:layout_margin="18sp"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/text_main"
+        android:textColor="@color/white"
         android:text="Price: Rp. xx.xxxx,xx"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/menu_big_picture"/>
